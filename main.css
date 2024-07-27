@@ -134,3 +134,37 @@ main .about-text {
     font-size: 1.2rem;
 }
 
+.services {
+    padding-top: 2em;
+}
+
+.services .services-title {
+    font-size: 2em;
+    font-weight: 500;
+    border-bottom: 3px solid var(--primary-color);
+    float: left;
+    
+}
+
+
+.services-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em;
+    padding-top: 2em;
+}
+
+.services-container .service {
+    width: 48%;
+    padding: 1em;
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+    background-color: var(--dark-color);
+}
+
+.services-container .service .service-about {
+    color: var(--secondary-white-color);
+    font-size: 1.2rem;
+}
