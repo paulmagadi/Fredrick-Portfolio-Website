@@ -105,6 +105,8 @@ main .home-section nav ul {
     border-left: 3px solid var(--white-color); */
 }
 
+
+
 main .home-section nav ul li {
     padding: 1em 2em;
 }
@@ -115,8 +117,11 @@ main .home-page {
 }
 
 main .home-page .about-title {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 500;
+    margin: 0 .5em 1em .5em;
+    border-bottom: 3px solid var(--primary-color);
     float: left;
+    padding-top: .5em;
 }
 
