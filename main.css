@@ -11,6 +11,7 @@
     --black-color: #000000;
     --dark-color: #323131;
     --white-color: #ffffff;
+    --secondary-white-color: #bab5b5;
 }
 
 body {
@@ -62,10 +63,45 @@ aside .profile-title {
     text-align: center;
 }
 
+aside .contact-information {
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+aside .contact-information .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+aside .contact-information .contact-info .icon {
+    color: var(--primary-color);
+}
+
+
+
+aside .contact-information .contact-info .info .info-title {
+    color: var(--secondary-white-color);
+    padding: .5em 0;
+}
+
 main .home-section {
     width: 70%;
     margin-left: 29%;
     border: 1px solid var(--primary-color);
     border-radius: 10px;
     background-color: var(--black-color);
+}
+
+main .home-section nav ul {
+    display: flex;
+    list-style: none;
+    float: right;
+    border: 1px solid var(--primary-color);
+}
+
+main .home-section nav ul li {
+    padding: 1em ;
 }
