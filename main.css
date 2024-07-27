@@ -108,3 +108,15 @@ main .home-section nav ul {
 main .home-section nav ul li {
     padding: 1em 2em;
 }
+
+main .home-page {
+    width: 100%;
+    min-height: 100vh;
+}
+
+main .home-page .about-title {
+    font-size: 4rem;
+    font-weight: 500;
+    float: left;
+}
+
