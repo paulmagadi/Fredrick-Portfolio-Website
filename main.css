@@ -162,6 +162,10 @@ main .about-text {
     border: 3px solid var(--primary-color);
     border-radius: 10px;
     background-color: var(--dark-color);
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+    align-items: center;
 }
 
 .services-container .service .service-about {
