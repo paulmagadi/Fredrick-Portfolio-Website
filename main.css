@@ -146,7 +146,6 @@ main .about-text {
     
 }
 
-
 .services-container {
     width: 100%;
     display: flex;
@@ -171,4 +170,36 @@ main .about-text {
 .services-container .service .service-about {
     color: var(--secondary-white-color);
     font-size: 1.2rem;
+}
+
+.looking-for-section {
+    padding-top: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.looking-for-section .looking-for-title h1 {
+    border-bottom: 3px solid var(--primary-color);
+    float: left;
+    font-size: 2rem;
+}
+
+.looking-for-items-container {
+    padding-top: 2em;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.looking-for-items-container .looking-for-item {
+    width: 31%;
+    border: 2px solid var(--primary-color);
+    padding: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--dark-color);
+    text-align: center;
 }
