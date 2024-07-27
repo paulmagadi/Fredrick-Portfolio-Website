@@ -90,7 +90,7 @@ aside .contact-information .contact-info .info .info-title {
 main .home-section {
     width: 70%;
     margin-left: 29%;
-    border: 1px solid var(--primary-color);
+    border: 3px solid var(--primary-color);
     border-radius: 10px;
     background-color: var(--black-color);
 }
@@ -99,9 +99,12 @@ main .home-section nav ul {
     display: flex;
     list-style: none;
     float: right;
-    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 10px;
+    /* border-bottom: 3px solid var(--white-color);
+    border-left: 3px solid var(--white-color); */
 }
 
 main .home-section nav ul li {
-    padding: 1em ;
+    padding: 1em 2em;
 }
