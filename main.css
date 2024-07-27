@@ -18,6 +18,7 @@ body {
     background-color: var(--dark-color);
     min-height: 100vh;
     color: var(--white-color);
+    position: relative;
 }
 
 .container {
@@ -49,6 +50,7 @@ aside .profile-image {
     text-align: center;
     border-radius: 20%;
     border-bottom: 1px solid var(--white-color);
+    padding: 1em;
    
 }
 
@@ -78,13 +80,24 @@ aside .contact-information .contact-info {
 
 aside .contact-information .contact-info .icon {
     color: var(--primary-color);
+    font-size: 1.5rem;
 }
-
-
 
 aside .contact-information .contact-info .info .info-title {
     color: var(--secondary-white-color);
     padding: .5em 0;
+}
+
+
+aside .socials {
+    text-align: center;
+    padding-top: 2em;
+}
+
+aside .socials a {
+    padding: .5em;
+    color: var(--white-color);
+    font-size: 1.3rem;
 }
 
 main .home-section {
@@ -95,6 +108,11 @@ main .home-section {
     background-color: var(--black-color);
 }
 
+main .home-section nav {
+    position: sticky;
+    top: 0;
+}
+
 main .home-section nav ul {
     display: flex;
     list-style: none;
@@ -102,14 +120,19 @@ main .home-section nav ul {
     background-color: var(--primary-color);
     border-bottom-left-radius: 10px;
     padding: 0 !important;
-    /* border-bottom: 3px solid var(--white-color);
-    border-left: 3px solid var(--white-color); */
 }
 
 
 
 main .home-section nav ul li {
     padding: 1em 2em;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+main .home-section nav ul li:hover {
+    background-color: var(--white-color);
+    color: var(--black-color);
 }
 
 main .home-page {
@@ -170,6 +193,11 @@ main .about-text {
 .services-container .service .service-about {
     color: var(--secondary-white-color);
     font-size: 1.2rem;
+}
+
+.services-container .service .icon {
+    font-size: 1.5rem;
+    color: var(--primary-color);
 }
 
 .looking-for-section {
