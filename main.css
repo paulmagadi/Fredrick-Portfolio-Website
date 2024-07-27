@@ -101,6 +101,7 @@ main .home-section nav ul {
     float: right;
     background-color: var(--primary-color);
     border-bottom-left-radius: 10px;
+    padding: 0 !important;
     /* border-bottom: 3px solid var(--white-color);
     border-left: 3px solid var(--white-color); */
 }
@@ -114,14 +115,22 @@ main .home-section nav ul li {
 main .home-page {
     width: 100%;
     min-height: 100vh;
+    padding: 2em;
+    padding-top: .5em;
 }
 
 main .home-page .about-title {
     font-size: 3rem;
     font-weight: 500;
-    margin: 0 .5em 1em .5em;
     border-bottom: 3px solid var(--primary-color);
     float: left;
-    padding-top: .5em;
+    overflow: auto;
+}
+
+main .about-text {
+    clear: left;
+    padding-top: 1.5em;
+    color: var(--secondary-white-color);
+    font-size: 1.2rem;
 }
 
