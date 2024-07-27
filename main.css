@@ -7,14 +7,14 @@
 
 :root {
     --primary-color: #fc7100;
-    --secondary-color: #fa5757;
+    --secondary-color: #dc0e0e;
     --black-color: #000000;
-    --dark-color: #000000d3;
+    --dark-color: #323131;
     --white-color: #ffffff;
 }
 
 body {
-    background-color: var(--black-color);
+    background-color: var(--dark-color);
     min-height: 100vh;
     color: var(--white-color);
 }
@@ -40,16 +40,26 @@ aside .profile-info {
     white-space: wrap;
     -ms-overflow-style: none;  
     scrollbar-width: none; 
+    background-color: var(--black-color);
 }
 
 aside .profile-image {
     width: 100%;
-    
+    text-align: center;
+    border-radius: 20%;
+    border-bottom: 1px solid var(--white-color);
+   
 }
 
 aside .profile-image img {
     width: 100%;
     border-radius: 20%;
+    padding: .3em;
+}
+
+aside .profile-title {
+    padding: 1em;
+    text-align: center;
 }
 
 main .home-section {
@@ -57,4 +67,5 @@ main .home-section {
     margin-left: 29%;
     border: 1px solid var(--primary-color);
     border-radius: 10px;
+    background-color: var(--black-color);
 }
