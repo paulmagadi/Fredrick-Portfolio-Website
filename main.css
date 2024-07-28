@@ -282,3 +282,14 @@ main .about-text {
     cursor: pointer;
     box-shadow: -4px 8px 24px  var(--dark-color);
 }
+
+.portfolio-section {
+    padding-top: 4em;
+}
+
+.portfolio-section-title {
+    font-size: 2rem;
+    font-weight: 500;
+    border-bottom: 3px solid var(--primary-color);
+    float: left;
+}
