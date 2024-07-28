@@ -21,6 +21,10 @@ body {
     position: relative;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     padding: 1em 2em 4em 2em;
     display: flex;
@@ -337,13 +341,14 @@ main .about-text {
 
 .portfolio-layer h4{
     padding: .9em;
-    background-color: white;
+    background-color: var(--primary-color);
     border-radius: 5px;
     display: none;
+    z-index: 99;
 }
 
 .portfolio-layer h4 a{
-    color: var(--black);
+    color: var(--white-color);
 }
 
 .portfolio-layer {
@@ -354,17 +359,22 @@ main .about-text {
     right: 0;
     width: 100%;
     height: 100%;
-    color: var(--black);
-    display: flex;
+    color: var(--black-color);
+    display: none;
     align-items: center;
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(rgba(0, 0, 0, 0.1),rgb(188, 185, 21));
-    opacity: 1;
+    background-color: #00000047;
     border-radius: 10px;
+}
+
+.portfolio:hover .portfolio-layer {
+    display: flex;
 }
 
 .portfolio:hover .portfolio-layer h4 {
     display: block;
+    opacity: 1;
+    z-index: 99;
 }
