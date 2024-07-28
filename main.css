@@ -278,7 +278,6 @@ main .about-text {
     border: 1.5px solid var(--dark-color);
     border-radius: 10px;
     text-align: center;
-    /* color: var(--secondary-white-color); */
     cursor: pointer;
     box-shadow: -4px 8px 24px  var(--dark-color);
 }
@@ -306,6 +305,8 @@ main .about-text {
 .portfolio {
     width: 48%;
     padding: .5em;
+    border-radius: 10px;
+    box-shadow: -12px 8px 24px  var(--dark-color);
 }
 
 .portfolio .portfolio-image {
@@ -316,6 +317,7 @@ main .about-text {
 
 .portfolio .portfolio-image img {
     width: 100%;
+    height: 180px;
     object-fit: cover;
     border-radius: 10px;
 }
