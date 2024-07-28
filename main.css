@@ -33,6 +33,7 @@ aside .profile-info {
     width: 26%;
     border: 3px solid var(--primary-color);
     padding: 1em;
+    padding-bottom: 4em;
     border-radius: 10px;
     position: fixed;
     height: 100%;
@@ -88,7 +89,6 @@ aside .contact-information .contact-info .info .info-title {
     padding: .5em 0;
 }
 
-
 aside .socials {
     text-align: center;
     padding-top: 2em;
@@ -98,6 +98,10 @@ aside .socials a {
     padding: .5em;
     color: var(--white-color);
     font-size: 1.3rem;
+}
+
+aside .socials a:hover i {
+    color: var(--primary-color);
 }
 
 main .home-section {
@@ -195,6 +199,7 @@ main .about-text {
     transition: 0.51s ease;
     transform: scale(1.03);
     cursor: pointer;
+    border: 1px solid var(--white-color);
 }
 
 .services-container .service .service-about {
