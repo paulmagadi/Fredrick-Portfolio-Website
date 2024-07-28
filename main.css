@@ -182,12 +182,19 @@ main .about-text {
     width: 48%;
     padding: 1em;
     border-radius: 10px;
-    background-color: var(--dark-color);
+    border: 1px solid var(--dark-color);
+    background-color: var(--back-color);
     display: flex;
     justify-content: flex-start;
     gap: 1em;
     align-items: center;
-    box-shadow: 4px 4px 4px #fc7100;
+    box-shadow: 4px 4px 4px var(--dark-color);
+}
+
+.services-container .service:hover {
+    transition: 0.51s ease;
+    transform: scale(1.03);
+    cursor: pointer;
 }
 
 .services-container .service .service-about {
@@ -230,7 +237,7 @@ main .about-text {
     cursor: pointer;
     background-color: var(--black-color);
     text-align: center;
-    color: var(--secondary-white-color);
+    color: var(--white-color);
     box-shadow: -4px 8px 24px  var(--dark-color);
 }
 
@@ -245,7 +252,7 @@ main .about-text {
 }
 
 .skills-section-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     float: left;
     border-bottom: 3px solid var(--primary-color);
