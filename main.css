@@ -181,13 +181,13 @@ main .about-text {
 .services-container .service {
     width: 48%;
     padding: 1em;
-    border: 3px solid var(--primary-color);
     border-radius: 10px;
     background-color: var(--dark-color);
     display: flex;
     justify-content: flex-start;
     gap: 1em;
     align-items: center;
+    box-shadow: 4px 4px 4px #fc7100;
 }
 
 .services-container .service .service-about {
@@ -224,12 +224,20 @@ main .about-text {
 
 .looking-for-items-container .looking-for-item {
     width: 31%;
-    border: 2px solid var(--primary-color);
+    border: 1.5px solid var(--dark-color);
     padding: 1em;
     border-radius: 10px;
     cursor: pointer;
-    background-color: var(--dark-color);
+    background-color: var(--black-color);
     text-align: center;
+    color: var(--secondary-white-color);
+    box-shadow: -4px 8px 24px  var(--dark-color);
+}
+
+.looking-for-item:hover {
+    border: 1.5px solid var(--white-color);
+    background-color: var(--black-color);
+    color: var(--white-color);
 }
 
 .skills-section {
@@ -254,9 +262,11 @@ main .about-text {
 
 .skill {
     width: 30%;
-    padding: 1em;
-    border: 3px solid var(--secondary-color);
+    padding: .5em;
+    border: 1.5px solid var(--dark-color);
     border-radius: 10px;
     text-align: center;
-    color: var(--secondary-white-color);
+    /* color: var(--secondary-white-color); */
+    cursor: pointer;
+    box-shadow: -4px 8px 24px  var(--dark-color);
 }
