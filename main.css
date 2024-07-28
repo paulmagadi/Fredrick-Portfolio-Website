@@ -307,14 +307,14 @@ main .about-text {
     padding: .5em;
     border-radius: 10px;
     cursor: pointer;
-    position: relative;
+    
 }
 
 .portfolio .portfolio-image {
     /* background-color: var(--dark-color); */
     border-radius: 10px;
     padding: .5em;    box-shadow: 0 -2px 0  var(--dark-color), -2px 2px 4px  var(--dark-color), 2px 2px 4px  var(--secondary-white-color);
-
+    position: relative;
 }
 
 .portfolio .portfolio-image:hover {
@@ -334,9 +334,6 @@ main .about-text {
 .portfolio .portfolio-texts {
     padding: 1em;
 }
-
-
-
 
 .portfolio-layer h4{
     padding: .9em;
