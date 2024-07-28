@@ -293,3 +293,29 @@ main .about-text {
     border-bottom: 3px solid var(--primary-color);
     float: left;
 }
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1em;
+    justify-content: space-between;
+    padding-top: 2em;
+}
+
+.portfolio {
+    width: 48%;
+    padding: .5em;
+}
+
+.portfolio .portfolio-image {
+    background-color: var(--dark-color);
+    border-radius: 10px;
+    padding: .5em;
+}
+
+.portfolio .portfolio-image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
