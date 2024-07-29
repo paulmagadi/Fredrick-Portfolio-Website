@@ -3,7 +3,7 @@
     --secondary-color: #e69650;
     --black-color: #1c1c1c;
     --dark-color: #323131;
-    --white-color: #ffffff;
+    --white-color: #ececec;
     --secondary-white-color: #bab5b5;
 }
 
@@ -42,9 +42,13 @@
 
 .personal-statement .statements{
     clear: left;
-    padding-top: 2em;
+    padding: .5em;
+    padding-top: 1em;
     color: var(--secondary-white-color);
     line-height: 1.5;
+    border: 2px solid var(--dark-color);
+    border-radius: 10px;
+    margin: .5em 0;
 }
 
 .education-container {
@@ -52,7 +56,11 @@
 }
 
 .education-item {
+    border: 2px solid var(--dark-color);
+    border-radius: 10px;
+    padding: .5em;
     padding-top: 2em;
+    margin: .5em 0;
 }
 
 .timeline {
@@ -69,6 +77,11 @@
 }
 
 .experience-item {
+    border: 2px solid var(--dark-color);
+    border-radius: 10px;
+    padding: .5em;
+    padding-top: 2em;
+    margin: .5em 0;
     padding-top: 2em;
 }
 
