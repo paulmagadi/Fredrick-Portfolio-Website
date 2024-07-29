@@ -1,7 +1,7 @@
 :root {
     --primary-color: #fc7100;
     --secondary-color: #e69650;
-    --black-color: #000000;
+    --black-color: #1c1c1c;
     --dark-color: #323131;
     --white-color: #ffffff;
     --secondary-white-color: #bab5b5;
@@ -55,15 +55,23 @@
     padding-top: 2em;
 }
 
-.school {
-
-}
-
 .timeline {
     color: var(--primary-color);
     padding: 1em 0 .5em 0;
 }
 
 .course {
+    color: var(--secondary-white-color);
+}
+
+.experience-container {
+    padding-top: 2em;
+}
+
+.experience-item {
+    padding-top: 2em;
+}
+
+.achievement {
     color: var(--secondary-white-color);
 }
