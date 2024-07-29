@@ -455,5 +455,8 @@ footer {
     bottom: 0 !important;
     font-weight: 800;
     line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     box-shadow: -0.5px 0.5px 0.5px var(--secondary-white-color), 0.5px -0.5px 0.5px var(--secondary-white-color);
 }
