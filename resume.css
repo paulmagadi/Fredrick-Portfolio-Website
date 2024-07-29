@@ -46,3 +46,24 @@
     color: var(--secondary-white-color);
     line-height: 1.5;
 }
+
+.education-container {
+    padding-top: 2em;
+}
+
+.education-item {
+    padding-top: 2em;
+}
+
+.school {
+
+}
+
+.timeline {
+    color: var(--primary-color);
+    padding: 1em 0 .5em 0;
+}
+
+.course {
+    color: var(--secondary-white-color);
+}
