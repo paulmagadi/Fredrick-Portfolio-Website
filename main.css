@@ -36,7 +36,7 @@ a {
 
 aside .profile-info {
     width: 26%;
-    box-shadow: -5px 1px 1px var(--secondary-white-color), 1px -1px 1px var(--secondary-white-color);
+    box-shadow: -0.5px 0.5px 0.5px var(--secondary-white-color), 0.5px -0.5px 0.5px var(--secondary-white-color);
     padding: 1em;
     padding-bottom: 4em;
     border-radius: 10px;
@@ -115,7 +115,7 @@ aside .socials a:hover i {
 main .home-section {
     width: 70%;
     margin-left: 29%;
-    box-shadow: -1px 1px 1px var(--secondary-white-color), 1px -1px 1px var(--secondary-white-color);
+    box-shadow: -0.5px 0.5px 0.5px var(--secondary-white-color), 0.5px -0.5px 0.5px var(--secondary-white-color);
     border-radius: 10px;
     background-color: var(--black-color);
 }
@@ -387,3 +387,58 @@ main .about-text {
     opacity: 1;
     z-index: 99;
 }
+
+.contact-section {
+    padding: 4em 0;
+}
+
+.contact-section-title {
+    font-size: 2em;
+    font-weight: 500;
+    float: left;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.contact-form {
+    clear: both;
+    padding-top: 2em;
+}
+
+.contact-form form {
+    clear: both;
+    border-radius: 10px;
+    border: 1px solid var(--dark-color);
+    padding: 2em;
+}
+
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    resize: vertical;
+    font-weight: 800;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+  }
+  
+.contact-form input[type=submit] {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 1em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 800;
+}
+  
+.contact-form input[type=submit]:hover {
+    background-color: var(--secondary-white-color);
+    color: var(--black-color);
+}
+  
+  
