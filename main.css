@@ -73,6 +73,10 @@ aside .profile-title {
     text-align: center;
 }
 
+.line-break {
+    border-bottom: 3px solid var(--dark-color);
+}
+
 aside .contact-information {
     padding: 1em 0;
     display: flex;
