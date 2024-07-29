@@ -162,7 +162,7 @@ main .home-page .about-title {
     font-weight: 500;
     border-bottom: 3px solid var(--primary-color);
     float: left;
-    overflow: auto;
+    border-radius: 10%;
 }
 
 main .about-text {
@@ -181,7 +181,7 @@ main .about-text {
     font-weight: 500;
     border-bottom: 3px solid var(--primary-color);
     float: left;
-    
+    border-radius: 10%;
 }
 
 .services-container {
@@ -233,6 +233,7 @@ main .about-text {
     border-bottom: 3px solid var(--primary-color);
     float: left;
     font-size: 2rem;
+    border-radius: 10%;
 }
 
 .looking-for-items-container {
@@ -272,6 +273,7 @@ main .about-text {
     font-weight: 500;
     float: left;
     border-bottom: 3px solid var(--primary-color);
+    border-radius: 10%;
 }
 
 .skills-container {
@@ -302,6 +304,7 @@ main .about-text {
     font-weight: 500;
     border-bottom: 3px solid var(--primary-color);
     float: left;
+    border-radius: 10%;
 }
 
 .portfolio-container {
@@ -322,7 +325,6 @@ main .about-text {
 }
 
 .portfolio .portfolio-image {
-    /* background-color: var(--dark-color); */
     border-radius: 10px;
     padding: .5em;    box-shadow: 0 -2px 0  var(--dark-color), -2px 2px 4px  var(--dark-color), 2px 2px 4px  var(--secondary-white-color);
     position: relative;
@@ -395,6 +397,7 @@ main .about-text {
     font-weight: 500;
     float: left;
     border-bottom: 3px solid var(--primary-color);
+    border-radius: 10%;
 }
 
 .contact-form {
