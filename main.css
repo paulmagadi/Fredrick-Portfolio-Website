@@ -19,7 +19,6 @@ body {
     min-height: 100vh;
     color: var(--white-color);
     position: relative;
-    margin-bottom: 2em;
 }
 
 a {
@@ -27,7 +26,7 @@ a {
 }
 
 .container {
-    padding: 1em 2em 4em 2em;
+    padding: 1em 2em 0 2em;
     display: flex;
     justify-content: space-between;
     gap: 2em;
@@ -427,13 +426,15 @@ main .about-text {
   }
   
 .contact-form input[type=submit] {
-    background-color: var(--primary-color);
+    background-color: var(--black-color);
     color: var(--white-color);
+    box-shadow: -1px 4px 1px var(--dark-color), 1px -2px 1px var(--dark-color);
     padding: 1em;
-    border: none;
     border-radius: 10px;
     cursor: pointer;
     font-weight: 800;
+    color: var(--primary-color);
+    font: 1.2rem;
 }
   
 .contact-form input[type=submit]:hover {
@@ -441,4 +442,18 @@ main .about-text {
     color: var(--black-color);
 }
   
-  
+footer {
+    width: 70%;
+    margin-left: 29%;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: var(--black-color);
+    margin-top: 4em;
+    margin-bottom: 0;
+    padding: 4em;
+    bottom: 0 !important;
+    font-weight: 800;
+    line-height: 1.5;
+    box-shadow: -0.5px 0.5px 0.5px var(--secondary-white-color), 0.5px -0.5px 0.5px var(--secondary-white-color);
+}
