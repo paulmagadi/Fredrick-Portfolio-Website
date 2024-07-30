@@ -4,7 +4,6 @@
     margin: 0;
 }
 
-
 :root {
     --primary-color: #fc7100;
     --secondary-color: #e69650;
@@ -341,7 +340,6 @@ main .about-text {
     transition: 0.5s ease;
     background-color: #000000b6;
 }
-
 
 .portfolio .portfolio-image img {
     width: 100%;
