@@ -51,7 +51,7 @@ aside .profile-info {
 }
 
 aside .profile-image {
-    width: 80%;
+    width: 100%;
     text-align: center;
     border-radius: 20%;
     border-bottom: 1px solid var(--white-color);
@@ -114,6 +114,48 @@ aside .socials a {
 
 aside .socials a:hover i {
     color: var(--primary-color);
+}
+
+@media (max-width:1000px) {
+    .container {
+        flex-direction: column;
+    }
+
+    aside .profile-info {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        padding-bottom: 1em;
+
+        position: absolute;
+        overflow-y: none;
+    }
+
+    .profile-image-segment {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .profile-information-segment {
+        width: 50%;
+    }
+
+    aside .profile-image {
+        width: 50%;
+        
+    }
+    
+    aside .profile-image img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20%;
+        padding: 0;
+    }
 }
 
 .home-section {
