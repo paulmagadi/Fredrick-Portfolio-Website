@@ -181,6 +181,7 @@ main .home-page .about-title {
     border-bottom: 3px solid var(--primary-color);
     float: left;
     border-radius: 5%;
+    padding-top: 1em;
 }
 
 main .about-text {
