@@ -9,13 +9,24 @@
         height: auto;
         position: static;
         display: flex;
+        gap: 1em;
     }
 
     .profile-image-segment {
-        width: 50%;
+        width: 48%;
+    }
+
+    aside .profile-image {
+        width: 65%;
     }
 
     .profile-information-segment {
-        width: 50%;
+        width: 48%;
+    }
+
+    .contact-information {
+        display: flex;
+        justify-content: center;
+
     }
 }
