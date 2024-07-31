@@ -75,10 +75,13 @@ aside .profile-title {
 .line-break {
     border-bottom: 3px solid var(--dark-color);
     border-radius: 50%;
+    padding: 0;
+    margin: 0;
 }
 
 .view-contacts-button {
     display: none;
+    margin: 0;
 }
 
 .view-contacts-button p {

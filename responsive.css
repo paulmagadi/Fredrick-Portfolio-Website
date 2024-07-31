@@ -70,8 +70,22 @@
 }
 
 @media (max-width: 700px) {
+    main .home-section nav ul {
+        float: none;
+        border-bottom-right-radius: 10px;
+        border-left: none;
+    }
+
+    main .home-section nav ul li {
+        padding: .7em;
+        font-weight: 500;
+        font-size: .9rem;
+    }
+
     aside .profile-info {
         flex-direction: column;
+        padding: .5em;
+        padding-bottom: 1em;
     }
 
     .profile-image-segment {
@@ -94,7 +108,6 @@
         display: none;
     }
 
-
     .profile-information-segment.active {
         width: 100%;
         display: flex;
@@ -102,6 +115,14 @@
         align-items: flex-start;
         flex-direction: column;
         padding: 1em;
+    }
+
+    .contact-information {
+        padding: .5em 0;
+    }
+
+    aside .socials {
+        padding-top: .5em;
     }
 
     .services-container {
