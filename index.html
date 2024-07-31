@@ -1,49 +1,61 @@
 <!DOCTYPE html>
+<!-- HTML5 doctype declaration -->
 <html lang="en">
+<!-- The language attribute specifies the language of the document -->
 <head>
+    <!-- Meta tags for character set, viewport settings, and SEO -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Fredrick Mulumba's Portfolio - Software Developer specializing in mobile and web development.">
     <meta name="keywords" content="Fredrick Mulumba, Software Developer, Portfolio, Web Development, Mobile Development">
+    
+    <!-- Title of the webpage -->
     <title>Fredrick Mulumba - Portfolio</title>
 
-    <!--  FAVICON -->
+    <!-- Link to favicon -->
     <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-    <!-- FONT AWESOME -->
+    <!-- Font Awesome for icons -->
     <script src="https://kit.fontawesome.com/c19bd454c4.js" crossorigin="anonymous"></script>
 
-    <!-- LinkedIn Badge -->
+    <!-- LinkedIn Badge script -->
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     
-    <!-- GOOGLE FONTS-->
+    <!-- Google Fonts for custom fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
-    <!-- CUSTOM CSS  -->
+    <!-- Custom CSS files -->
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="responsive.css">
 </head>
 <body>    
   <div class="container">
+        <!-- Sidebar section -->
         <aside>
             <div class="profile-info">
+                <!-- Profile image and title -->
                 <div class="profile-image-segment">
                   <div class="profile-image">
                     <img src="images/profile1.jpg" alt="Fredrick">
-                </div>
-                <div class="profile-title">
+                  </div>
+                  <div class="profile-title">
                     <h1>Fredrick Mulumba</h1>
                     <h4 style="color: var(--secondary-white-color);">Software Developer</h4>
-                </div>
+                  </div>
                 </div>
                 <div class="line-break"></div>
 
-                <div class="view-contacts-button"> <p>View Contacts &downarrow;</p> </div>
+                <!-- Button to view contacts -->
+                <div class="view-contacts-button"> 
+                    <p>View Contacts &downarrow;</p> 
+                </div>
 
+                <!-- Contact information -->
                 <div class="profile-information-segment">
                   <div class="contact-information">
+                    <!-- Phone contact -->
                     <div class="contact-info">
                       <div class="icon">
                         <i class="fa-solid fa-phone"></i>
@@ -54,6 +66,7 @@
                       </div>
                     </div>
     
+                    <!-- Email contact -->
                     <div class="contact-info">
                       <div class="icon">
                         <i class="fa-solid fa-envelope"></i>
@@ -64,6 +77,7 @@
                       </div>
                     </div>
     
+                    <!-- Address contact -->
                     <div class="contact-info">
                       <div class="icon">
                         <i class="fa-solid fa-location-dot"></i>
@@ -75,6 +89,7 @@
                     </div>
                 </div>
 
+                <!-- Social media links -->
                 <div class="socials">
                   <a href="#"><i class="fa-brands fa-facebook"></i></a>
                   <a href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -85,8 +100,10 @@
             </div>
         </aside>
 
+        <!-- Main content section -->
         <main>
             <div class="home-section">
+                <!-- Navigation bar -->
                 <nav>
                     <ul>
                         <a href="#about"><li>About</li></a>
@@ -95,31 +112,35 @@
                         <a href="resume.html"><li>Resume</li></a>
                     </ul>
                 </nav>
+                <!-- Home page article -->
                 <article class="home-page" id="about">
+                    <!-- About section -->
                     <section>
                       <h2 class="about-title">About Me</h2>
-                      
                       <div class="about-text">
                           <p>
-                            I'm software developer based in Nairobi, Kenya and working in mobile and web development.
-                            I enjoy turning complex problems into simple, beautiful and intuitive designs.
+                            I'm a software developer based in Nairobi, Kenya, specializing in mobile and web development.
+                            I enjoy turning complex problems into simple, beautiful, and intuitive designs.
                           </p>
                           <br>
                           <p>
-                            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-                            Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. </p>
-                              <br>
-                            <p>My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+                            My job is to build your website to be functional and user-friendly while being attractive.
+                            I add a personal touch to your product and ensure it is eye-catching and easy to use.
+                          </p>
+                          <br>
+                          <p>My aim is to bring across your message and identity in the most creative way. I have created web designs for many famous brand companies.
                           </p>
                         </div>
                      </section>
 
+                     <!-- Services section -->
                       <section>
                         <div class="services">
                             <div class="services-title">
                                 <h1>What I Do</h1>
                             </div>
                             <div class="services-container">
+                                <!-- Web Design service -->
                                 <div class="service">
                                     <div class="icon">
                                       <i class="fa-solid fa-palette"></i>
@@ -131,6 +152,7 @@
                                       </div>
                                     </div>
                                 </div>
+                                <!-- Web Development service -->
                                 <div class="service">
                                     <div class="icon">
                                         <i class="fa-solid fa-code"></i>
@@ -138,10 +160,11 @@
                                     <div class="service-text">
                                       <h4 class="service-title">Web Development</h4>
                                       <div class="service-about">
-                                        <p>Fully functioning website with quality user interfaces and strong backed support</p>
+                                        <p>Fully functioning websites with quality user interfaces and strong backend support</p>
                                       </div>
                                     </div>
                                 </div>
+                                <!-- Android/IOS Development service -->
                                 <div class="service">
                                     <div class="icon">
                                       <i class="fa-solid fa-mobile"></i>
@@ -149,11 +172,11 @@
                                     <div class="service-text">
                                       <h4 class="service-title">Android/IOS Development</h4>
                                       <div class="service-about">
-                                        <p >
-                                            The most modern mobile apps with optimum funtionalities and  user-friendly interfaces</p>
+                                        <p>The most modern mobile apps with optimum functionalities and user-friendly interfaces</p>
                                       </div>
                                     </div>
                                 </div>
+                                <!-- Database Design service -->
                                 <div class="service">
                                     <div class="icon">
                                       <i class="fa-solid fa-database"></i>
@@ -169,6 +192,7 @@
                         </div>
                       </section>
 
+                      <!-- Looking For section -->
                       <section>
                         <div class="looking-for-section">
                             <div class="looking-for-title">
@@ -191,19 +215,18 @@
                                     <h3>School Website</h3>
                                 </div>
                                 <div class="looking-for-item">
-                                    <h3>Mobile  App</h3>
+                                    <h3>Mobile App</h3>
                                 </div>
                             </div>
                         </div>
                       </section>
 
-
+                      <!-- Skills section -->
                       <section>
                         <div class="skills-section">
                           <div class="skills-section-title">
                             <h1>My Tech Skills</h1>
                           </div>
-  
                           <div class="skills-container">
                             <div class="skill"><h3>Python</h3></div>
                             <div class="skill"><h3>Django</h3></div>
@@ -213,28 +236,28 @@
                             <div class="skill"><h3>Flutter</h3></div>
                             <div class="skill"><h3>Firebase</h3></div>
                             <div class="skill"><h3>AWS</h3></div>
+                            <div class="skill"><h3>CSS</h3></div>
+                            <div class="skill"><h3>HTML</h3></div>
+                            <div class="skill"><h3>jQuery</h3></div>
                             <div class="skill"><h3>React</h3></div>
-                            <div class="skill"><h3>HTML/CSS</h3></div>
-                            <div class="skill"><h3>MySQL</h3></div>
-                            <div class="skill"><h3>PostgreSQL</h3></div>
-                            <div class="skill"><h3>MongoDB</h3></div>
-                            <div class="skill"><h3>UI/UX Design</h3></div>
                           </div>
                         </div>
                       </section>
 
-                      <section id="portfolio">
-                        <div class="portfolio-section">
+                      <!-- Portfolio section -->
+                      <section>
+                        <div class="portfolio-section" id="portfolio">
                           <div class="portfolio-section-title">
                             <h1>Portfolio</h1>
                           </div>
                           <div class="portfolio-container">
 
+                            <!-- Portfolio item 1 -->
                             <div class="portfolio">
                               <div class="portfolio-image">
                                 <img src="images/ecom2.png" alt="Portfolio">
                                 <div class="portfolio-layer">
-                                  <h4><a href="https://bellamoreapparels.up.railway.app/" target="_blank">View</a></h4>
+                                  <h4><a href="https://bellamoreapparels.up.railway.app/" target="_blank">View &rarr;</a></h4>
                                 </div>
                               </div>
                               <div class="portfolio-texts">
@@ -243,11 +266,12 @@
                               </div>
                             </div>
 
+                            <!-- Portfolio item 2 -->
                             <div class="portfolio">
                               <div class="portfolio-image">
                                 <img src="images/portfolio.png" alt="Portfolio">
                                 <div class="portfolio-layer">
-                                  <h4><a href="https://annabelnatea.up.railway.app/" target="_blank">View</a></h4>
+                                  <h4><a href="https://annabelnatea.up.railway.app/" target="_blank">View &rarr;</a></h4>
                                 </div>
                               </div>
                               <div class="portfolio-texts">
@@ -256,11 +280,12 @@
                               </div>
                             </div>
 
+                            <!-- Portfolio item 3 -->
                             <div class="portfolio">
                               <div class="portfolio-image">
                                 <img src="images/app.png" alt="Portfolio">
                                 <div class="portfolio-layer">
-                                  <h4><a href="https://annabelnatea.up.railway.app/" target="_blank">View</a></h4>
+                                  <h4><a href="https://annabelnatea.up.railway.app/" target="_blank">View &rarr;</a></h4>
                                 </div>
                               </div>
                               <div class="portfolio-texts">
@@ -269,11 +294,12 @@
                               </div>
                             </div>
 
+                            <!-- Portfolio item 4 -->
                             <div class="portfolio">
                               <div class="portfolio-image">
                                 <img src="images/admin_portal.png" alt="Portfolio">
                                 <div class="portfolio-layer">
-                                  <h4><a href="https://annabelnatea.up.railway.app/" target="_blank">View</a></h4>
+                                  <h4><a href="https://annabelnatea.up.railway.app/" target="_blank">View &rarr;</a></h4>
                                 </div>
                               </div>
                               
@@ -282,18 +308,18 @@
                                 <p style="color: var(--secondary-white-color);">A fully functioning ecommerce admin portal.</p>
                               </div>
                             </div>
-
-
                           </div>
                         </div>
                       </section>
 
-                      <section id="contact">
-                        <div class="contact-section">
+                      <!-- Contact section -->
+                      <section>
+                        <div class="contact-section" id="contact">
                           <div class="contact-section-title">
                             <h1>Contact Me</h1>
                           </div>
                           <div class="contact-form">
+                            <!-- Contact form -->
                             <form action="">
                               <input type="text" name="full_name" placeholder="Full name">
 
@@ -309,15 +335,16 @@
                 </article>
             </div>
 
+            <!-- Page footer - Developer's information -->
             <footer>
               <p>Designed and Developed by <span style="color: var(--white-color);">&commat;PaulMagadi</span></p>
               <p>Contact <span style="font-weight: 800;"><a href="https://github.com/Sqmagadi" target="_blank" style="color: var(--primary-color);">@paulsqmagadi</a></span></p>
               <p>&copy;2024 &nbsp; - &nbsp; All rights reserved</p>
             </footer>
         </main>
-
     </div>
 
+    <!-- Link to the main JavaScript file -->
     <script src="main.js"></script>
 </body>
 </html>
