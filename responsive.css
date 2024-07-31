@@ -82,6 +82,11 @@
         width: 30%;
     }
 
+    .view-contacts-button {
+        display: flex;
+        justify-content: center;
+    }
+
     .profile-information-segment {
         display: none;
     }
@@ -90,9 +95,10 @@
     .profile-information-segment.active {
         width: 100%;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
         flex-direction: column;
+        padding: 1em;
     }
 
     .services-container {

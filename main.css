@@ -35,7 +35,7 @@ a {
 aside .profile-info {
     width: 26%;
     box-shadow: -0.5px 0.5px 0.5px var(--secondary-white-color), 0.5px -0.5px 0.5px var(--secondary-white-color);
-   padding : 1em;
+    padding : 1em;
     padding-bottom: 4em;
     border-radius: 10px;
     position: fixed;
@@ -75,6 +75,16 @@ aside .profile-title {
 .line-break {
     border-bottom: 3px solid var(--dark-color);
     border-radius: 50%;
+}
+
+.view-contacts-button {
+    display: none;
+}
+
+.view-contacts-button p {
+    margin: 0;
+    padding: .5em;
+    box-shadow: -0.5px 0.5px 0.5px var(--secondary-white-color), 0.5px -0.5px 0.5px var(--secondary-white-color);
 }
 
 aside .contact-information {
