@@ -131,6 +131,7 @@ main .home-section nav {
 
 main .home-section nav ul {
     display: flex;
+    justify-content: space-between;
     list-style: none;
     float: right;
     background-color: var(--dark-color);
@@ -141,7 +142,7 @@ main .home-section nav ul {
 }
 
 main .home-section nav ul li {
-    padding: 1em 2em;
+    padding: 1em;
     font-weight: 800;
     cursor: pointer;
     color: var(--white-color);
@@ -175,6 +176,10 @@ main .about-text {
     color: var(--secondary-white-color);
     font-size: 1.2rem;
 }
+
+
+
+
 
 .services {
     padding-top: 4em;
