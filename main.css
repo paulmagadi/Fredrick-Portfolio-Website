@@ -35,7 +35,7 @@ a {
 aside .profile-info {
     width: 26%;
     box-shadow: -0.5px 0.5px 0.5px var(--secondary-white-color), 0.5px -0.5px 0.5px var(--secondary-white-color);
-    padding: 1em;
+   padding : 1em;
     padding-bottom: 4em;
     border-radius: 10px;
     position: fixed;
