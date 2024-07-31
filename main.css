@@ -176,10 +176,6 @@ main .about-text {
     font-size: 1.2rem;
 }
 
-
-
-
-
 .services {
     padding-top: 4em;
 }
@@ -334,6 +330,7 @@ main .about-text {
 }
 
 .portfolio .portfolio-image {
+    width: 100%;
     border-radius: 10px;
     padding: .5em;    box-shadow: 0 -2px 0  var(--dark-color), -2px 2px 4px  var(--dark-color), 2px 2px 4px  var(--secondary-white-color);
     position: relative;
