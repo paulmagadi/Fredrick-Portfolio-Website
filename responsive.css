@@ -21,7 +21,7 @@
     }
 
     aside .profile-image {
-        width: 65%;
+        width: 75%;
     }
 
     .profile-information-segment {
@@ -44,8 +44,10 @@
     }
 
     .resume-container {
-        padding: 1em;
+        padding: 0;
     }
+
+    
 
     footer {
         width: 100%;

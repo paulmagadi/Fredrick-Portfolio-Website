@@ -18,7 +18,7 @@
 .resume-container {
     width: 100%;
     min-height: 100vh;
-    padding: 2em;
+    padding: 2em 1em;
     padding-top: .5em;
 }
 
