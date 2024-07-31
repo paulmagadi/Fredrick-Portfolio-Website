@@ -231,9 +231,18 @@ main .about-text {
     border: 1px solid var(--white-color);
 }
 
+.service-title {
+    float: left;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
 .services-container .service .service-about {
+    clear: left;
     color: var(--secondary-white-color);
     font-size: 1.2rem;
+    padding-top: .5em;
 }
 
 .services-container .service .icon {
@@ -365,6 +374,7 @@ main .about-text {
 
 .portfolio .portfolio-texts {
     padding: 1em;
+    font-size: 1.2rem;
 }
 
 .portfolio-layer h4{
@@ -405,6 +415,12 @@ main .about-text {
     display: block;
     opacity: 1;
     z-index: 99;
+}
+
+.portfolio-title {
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-bottom: .5em;
 }
 
 .contact-section {
