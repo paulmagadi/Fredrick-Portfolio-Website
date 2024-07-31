@@ -81,6 +81,9 @@
     aside .profile-image {
         width: 30%;
     }
+    .line-break {
+        display: none;
+    }
 
     .view-contacts-button {
         display: flex;

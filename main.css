@@ -84,7 +84,8 @@ aside .profile-title {
 .view-contacts-button p {
     margin: 0;
     padding: .5em;
-    box-shadow: -0.5px 0.5px 0.5px var(--secondary-white-color), 0.5px -0.5px 0.5px var(--secondary-white-color);
+    border: 1px solid var(--secondary-white-color);
+    color: var(--secondary-white-color);
 }
 
 aside .contact-information {
