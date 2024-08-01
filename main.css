@@ -161,10 +161,9 @@ main .home-section nav ul li {
     color: var(--white-color);
 }
 
-main .home-section nav ul li:last-child {
+main .home-section nav ul:last-child {
     border-top-right-radius: 10px;
     box-shadow: 0.5px -0.5px 0.5px var(--secondary-white-color);
-    
 }
 
 main .home-section nav ul li:hover {
