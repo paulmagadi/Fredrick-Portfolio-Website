@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="47.910419mm"
+   height="46.417866mm"
+   viewBox="0 0 181.07876 175.43761"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-160.09087,-160.63299)">
+    <g
+       id="g4">
+      <ellipse
+         style="opacity:1;fill:#fc7100;fill-opacity:1;stroke:#fc7100;stroke-width:0.755904;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4.9;stroke-opacity:1;paint-order:markers stroke fill"
+         id="path2"
+         cx="250.63025"
+         cy="248.35179"
+         rx="90.161423"
+         ry="87.340843" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:181.14px;font-family:'French Script MT';-inkscape-font-specification:'French Script MT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke-width:1.30227;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4.9;paint-order:markers stroke fill"
+         x="167.6678"
+         y="304.89722"
+         id="text1"
+         transform="scale(1.1781431,0.84879329)"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           x="167.6678"
+           y="304.89722"
+           style="fill:#f9f9f9;fill-opacity:1;stroke-width:1.30227">f</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:105.144px;font-family:'French Script MT';-inkscape-font-specification:'French Script MT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:105.155;fill:#ffffff;fill-opacity:0.972549;stroke-width:0.755906;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4.9;paint-order:markers stroke fill"
+         x="156.45403"
+         y="267.33893"
+         id="text2"
+         inkscape:transform-center-x="30.830415"
+         inkscape:transform-center-y="-8.8847177"
+         transform="matrix(2.0296904,0,0,1.4622905,-85.823014,-125.10722)"><tspan
+           x="156.45403"
+           y="267.33893"
+           id="tspan3">m</tspan></text>
+    </g>
+  </g>
+</svg>
